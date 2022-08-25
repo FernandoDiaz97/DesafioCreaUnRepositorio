@@ -149,7 +149,7 @@ body{
 }
 
 .menu__item:hover{
-    background-color: seashell;
+    background-color: rgb(202, 133, 241);
 }
 
 .menu__item{
@@ -157,7 +157,7 @@ body{
     border-radius: 5px;
     padding: 2px;
     border: solid 3px red;
-    box-shadow: 0px 0px 50px 10px rgb(255, 45, 255);
+    box-shadow: 0px 0px 50px 10px rgb(45, 255, 87);
 }
 
 .carrusel{

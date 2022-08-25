@@ -52,7 +52,7 @@ body{
     border-radius: 5px;
     padding: 2px;
     border: solid 3px red;
-    box-shadow: 0px 0px 50px 15px rgb(238, 0, 255);
+    box-shadow: 0px 0px 50px 15px rgb(0, 255, 119);
 }
 
 .titulo{
@@ -65,7 +65,7 @@ body{
     animation-duration: 3s;
     animation-name: slidein;
     animation-direction: alternate;
-    box-shadow: 1px 1px 50px 10px rgb(1, 144, 191);
+    box-shadow: 1px 1px 50px 10px rgb(179, 238, 51);
 }
 
 .contenido{
