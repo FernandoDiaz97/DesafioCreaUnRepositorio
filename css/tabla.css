@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+     align-items: center;
+    background-image: url(../assets/imagenes/fondo6.png);
+    background-size: 100%;
+}
+
+.gridpadre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px;
+    margin-bottom: 20px;
+}
+
+
+.logo{
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.menu{
+    color: red;
+    width: 70vw;
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    
+}
+
+.menu__item:hover{
+    background-color: seashell;
+}
+
+.menu__item{
+    background-color: chartreuse;
+    border-radius: 5px;
+    padding: 2px;
+    border: solid 3px red;
+    box-shadow: 0px 0px 50px 15px rgb(238, 0, 255);
+}
+
+.titulo{
+    background-color: darkcyan;
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: alternate;
+    box-shadow: 1px 1px 50px 10px rgb(1, 144, 191);
+}
+
+.contenido{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 100px;
+    color:brown;
+    border-collapse: separate;
+}
+
+
+.pc{
+    width: 200px;
+    height: 200px; 
+    margin-top: 5px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 50px 20px rgb(237, 6, 6);
+}
+
+.espec{
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    width: 80%;
+    padding-top: 5px;
+}
+
+.pie{
+    background-color: gray;
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
